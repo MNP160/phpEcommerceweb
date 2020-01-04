@@ -1,0 +1,44 @@
+/*// BASKET BASE STYLES //*/
+.basket{
+  width: 90%;
+  float: right;
+}
+header{
+  border-bottom: 1px solid #eee;
+  background: #fff;
+}
+header:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.basket ul{
+  padding: 0;
+  margin-top: 40px;
+}
+.basket li{
+  float: right;
+  list-style-type: none;
+  width: 30%;
+  padding-top: 2em;
+  text-align: center;
+}
+.basket button{
+  border-radius: 10px;
+  cursor: pointer;
+}
+.basket header div{
+  float: right;
+  position: relative;
+  z-index: 1;
+}
+.basket header h1{
+  float: left;
+}
+.images{
+  border-radius: 10px;
+}
+.images:hover{
+transform: scale(0.9);
+transition:0.4s ease-in-out;
+}

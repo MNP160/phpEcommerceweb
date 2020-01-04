@@ -1,0 +1,79 @@
+/*List Items*/
+.header-nav{
+  width:21%;  
+  height: 100%;
+  margin-left:1%;
+  margin-top: 1%;
+  position: absolute;
+  background-color: #fff;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li ul {
+  display:none;
+}
+.visible {
+  display:block;
+
+}
+/*Menu-Icon*/
+#menu-icon:before {
+content: "Socks";
+display: inline-block;
+width: 50px;
+}
+#menu-icon:after {  
+display: inline-block;
+width: 50px;
+}
+/*Menu-Icon1*/
+#menu-icon1:before {
+content: "T-Shirts";
+display: inline-block;
+width: 80px;
+}
+#menu-icon1:after {  
+display: inline-block;
+width: 80px;
+}
+  /*Menu-Icon2*/
+#menu-icon2:before {
+content: "Shoes";
+display: inline-block;
+width: 80px;
+}
+#menu-icon2:after { 
+display: inline-block;
+width: 80px;
+}
+  /*Menu-Icon3*/
+#menu-icon3:before {
+content: "Jackets";
+display: inline-block;
+width: 80px;
+}
+#menu-icon3:after { 
+display: inline-block;
+width: 80px;
+}
+  /*Menu-Icon4*/
+#menu-icon4:before {
+  content: "Hats";
+  display: inline-block;
+  width: 80px;
+  }
+  #menu-icon4:after { 
+  display: inline-block;
+  width: 80px;
+  }
+    /*Menu-Icon5*/
+#menu-icon5:before {
+  content: "Jeans";
+  display: inline-block;
+  width: 80px;
+  }
+  #menu-icon5:after { 
+  display: inline-block;
+  width: 80px;
+  }
